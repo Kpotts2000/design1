@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
 }
 
 .primary {
@@ -8,7 +9,7 @@ body {
   font-family: 'Syne Mono', monospace;
   color:5762dd;
   mix-blend-mode:darken;
-
+  cursor: "images/starcursor.png", auto;
 
 
 }
@@ -29,8 +30,8 @@ body {
   color:30356b;
   mix-blend-mode: overlay;
   rotate: 90deg;
-  position:relative;
-  left:09em;
+  position:absolute;
+  left:30em;
   top:15em;
   scale: 12;
 
