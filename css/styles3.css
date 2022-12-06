@@ -1,6 +1,6 @@
 body {
   margin: 0;
-
+cursor: url('../images/handcursor.png'), auto;
 }
 
 .primary {
@@ -54,7 +54,17 @@ body {
   color:30356b;
   padding-top: 1em;
   padding-bottom: 1em;
+
 }
+
+.caption {
+  top: 0;
+  right: 5;
+  position: fixed;
+  font-family: Helvetica, sans-sans-serif;
+  color:3f468d;
+}
+
 
 .authors {
   bottom:0;
@@ -110,6 +120,15 @@ background-repeat:  round;
 .linkformat a {
   font-family: Helvetica, sans-serif;
   color: 30356b;
+  text-decoration: none;
+  margin: 2em;
+
+}
+
+.caption {
+
+    color:30356b;
+    font-family: Helvetica, sans-sans-serif;
 
 }
 
